@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1;
     color: #e0e0e0;
     max-width: 800px;
     margin: 0 auto;
@@ -61,7 +61,13 @@ h2 {
     transition: color 0.3s ease;
 }
 
-#about a:hover {
+#socials a {
+    color: #9e9e9e;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+#socials a:hover {
     color: #ffffff;
 }
 
