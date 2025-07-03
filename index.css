@@ -71,6 +71,37 @@ h2 {
     color: #ffffff;
 }
 
+#projects a {
+    color: #9e9e9e;
+    transition: color 0.3s ease;
+}
+
+#projects a:hover {
+    color: #ffffff;
+}
+
+#socials p {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 25px;
+    padding-left: 12px;
+    border-left: 3px solid #424242;
+}
+
+.project h3 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.project p {
+    color: #bdbdbd;
+}
+
 footer {
     text-align: center;
     margin-top: 30px;
